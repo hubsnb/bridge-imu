@@ -1,0 +1,45 @@
+
+
+GraphedExpression="((ins).ERaxis).yaw_pitch_roll[2]", Color=#e56a6f
+GraphedExpression="((ins).ERaxis).yaw_pitch_roll[1]", Color=#35792b
+GraphedExpression="((ins).ERaxis).yaw_pitch_roll[0]", Color=#769dda
+GraphedExpression="((ins).ERaxis).phi[0]", Color=#b14f0d
+GraphedExpression="((ins).ERaxis).phi[1]", Color=#b3c38e
+GraphedExpression="((ins).ERaxis).phi[2]", Color=#ab7b05
+OpenDocument="tasks.c", FilePath="D:/download-suibian/RobotMaster/cpp/Bridge_new/Middlewares/Third_Party/FreeRTOS/Source/tasks.c", Line=3638
+OpenDocument="startup_stm32f407xx.s", FilePath="D:/download-suibian/RobotMaster/cpp/Bridge_new/startup_stm32f407xx.s", Line=49
+OpenDocument="port.c", FilePath="D:/download-suibian/RobotMaster/cpp/Bridge_new/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c", Line=410
+OpenDocument="ins.cpp", FilePath="D:/download-suibian/RobotMaster/cpp/Bridge_new/Application/Sensor/INS/ins.cpp", Line=98
+OpenDocument="BMI088Middleware.c", FilePath="D:/download-suibian/RobotMaster/cpp/Bridge_new/Middlewares/Device/BMI088/BMI088Middleware.c", Line=0
+OpenDocument="freertos.c", FilePath="D:/download-suibian/RobotMaster/cpp/Bridge_new/Core/Src/freertos.c", Line=212
+OpenDocument="spi.h", FilePath="D:/download-suibian/RobotMaster/cpp/Bridge_new/Core/Inc/spi.h", Line=8
+OpenDocument="main.c", FilePath="D:/download-suibian/RobotMaster/cpp/Bridge_new/Core/Src/main.c", Line=64
+OpenDocument="stm32f4xx_it.c", FilePath="D:/download-suibian/RobotMaster/cpp/Bridge_new/Core/Src/stm32f4xx_it.c", Line=96
+OpenDocument="CwiseNullaryOp.h", FilePath="D:/download-suibian/RobotMaster/cpp/Bridge_new/Middlewares/Third_Party/Eigen/src/Core/CwiseNullaryOp.h", Line=329
+OpenDocument="stm32f4xx_hal_spi.c", FilePath="D:/download-suibian/RobotMaster/cpp/Bridge_new/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c", Line=1207
+OpenToolbar="Debug", Floating=0, x=0, y=0
+OpenWindow="Source Files", DockArea=LEFT, x=0, y=0, w=780, h=665, TabPos=1, TopOfStack=0, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Watched Data 1", DockArea=LEFT, x=0, y=0, w=780, h=665, TabPos=0, TopOfStack=1, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Data Sampling", DockArea=BOTTOM, x=0, y=0, w=780, h=275, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, VisibleTab=0, UniformSampleSpacing=0
+OpenWindow="Timeline", DockArea=RIGHT, x=0, y=0, w=573, h=679, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=1, DataPaneShown=1, PowerPaneShown=0, CodePaneShown=0, PinCursor="Cursor Movable", TimePerDiv="5 s", TimeStampFormat="Time", DataGraphDrawAsPoints=0, DataGraphLegendShown=1, DataGraphUniformSampleSpacing=0, DataGraphLegendPosition="223;0", DataGraphShowNamesAtCursor=0, PowerGraphDrawAsPoints=0, PowerGraphLegendShown=0, PowerGraphAvgFilterTime=Off, PowerGraphAvgFilterLen=Off, PowerGraphUniformSampleSpacing=0, PowerGraphLegendPosition="825;0", CodeGraphLegendShown=0, CodeGraphLegendPosition="831;0"
+OpenWindow="Console", DockArea=BOTTOM, x=1, y=0, w=1139, h=275, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+SmartViewPlugin="", Page="", Toolbar="Hidden", Window="SmartView 1"
+TableHeader="Source Files", SortCol="File", SortOrder="ASCENDING", VisibleCols=["File";"Status";"Size";"#Insts";"Path"], ColWidths=[475;100;100;100;1250]
+TableHeader="Data Sampling Table", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time";" ((ins).ERaxis).yaw_pitch_roll[2]";" ((ins).ERaxis).yaw_pitch_roll[1]";" ((ins).ERaxis).yaw_pitch_roll[0]";" ((ins).ERaxis).phi[0]";" ((ins).ERaxis).phi[1]";" ((ins).ERaxis).phi[2]"], ColWidths=[100;100;100;100;100;100;100;100]
+TableHeader="Data Sampling Setup", SortCol="Expression", SortOrder="DESCENDING", VisibleCols=["Expression";"Type";"Value";"Min";"Max";"Average";"# Changes";"Min. Change";"Max. Change"], ColWidths=[244;100;119;119;112;119;100;119;112]
+TableHeader="Power Sampling", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time";"Ch 0"], ColWidths=[100;100;100]
+TableHeader="RegisterSelectionDialog", SortCol="None", SortOrder="ASCENDING", VisibleCols=[], ColWidths=[]
+TableHeader="Watched Data 1", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Value";"Location";"Refresh";"Access"], ColWidths=[282;163;100;235;100]
+TableHeader="TargetExceptionDialog", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Address";"Description"], ColWidths=[200;100;100;359]
+WatchedExpression="ins", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="BMI088", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="DWT_CNT_DT_END", Window=Watched Data 1
+WatchedExpression="DWT_CNT_DT_END", Window=Watched Data 1
+WatchedExpression="DWT_CNT_DT_START", Window=Watched Data 1
+WatchedExpression="yaw_pitch_roll", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="abs_phi", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="Imu_info", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="phi3anti", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="temp1", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="temp2", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="abs_phi", RefreshRate=5, Window=Watched Data 1
