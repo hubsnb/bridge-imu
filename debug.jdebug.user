@@ -1,35 +1,38 @@
 
 
-GraphedExpression="((ins).ERaxis).yaw_pitch_roll[2]", Color=#e56a6f
-GraphedExpression="((ins).ERaxis).yaw_pitch_roll[1]", Color=#35792b
-GraphedExpression="((ins).ERaxis).yaw_pitch_roll[0]", Color=#769dda
-GraphedExpression="((ins).ERaxis).phi[0]", Color=#b14f0d
-GraphedExpression="((ins).ERaxis).phi[1]", Color=#b3c38e
-GraphedExpression="((ins).ERaxis).phi[2]", Color=#ab7b05
-OpenDocument="tasks.c", FilePath="D:/download-suibian/RobotMaster/cpp/Bridge_new/Middlewares/Third_Party/FreeRTOS/Source/tasks.c", Line=3638
-OpenDocument="startup_stm32f407xx.s", FilePath="D:/download-suibian/RobotMaster/cpp/Bridge_new/startup_stm32f407xx.s", Line=49
-OpenDocument="port.c", FilePath="D:/download-suibian/RobotMaster/cpp/Bridge_new/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c", Line=410
-OpenDocument="ins.cpp", FilePath="D:/download-suibian/RobotMaster/cpp/Bridge_new/Application/Sensor/INS/ins.cpp", Line=98
-OpenDocument="BMI088Middleware.c", FilePath="D:/download-suibian/RobotMaster/cpp/Bridge_new/Middlewares/Device/BMI088/BMI088Middleware.c", Line=0
-OpenDocument="freertos.c", FilePath="D:/download-suibian/RobotMaster/cpp/Bridge_new/Core/Src/freertos.c", Line=212
-OpenDocument="spi.h", FilePath="D:/download-suibian/RobotMaster/cpp/Bridge_new/Core/Inc/spi.h", Line=8
-OpenDocument="main.c", FilePath="D:/download-suibian/RobotMaster/cpp/Bridge_new/Core/Src/main.c", Line=64
-OpenDocument="stm32f4xx_it.c", FilePath="D:/download-suibian/RobotMaster/cpp/Bridge_new/Core/Src/stm32f4xx_it.c", Line=96
+GraphedExpression="((glv_ins).ERaxis).Q_btoi[1]", Color=#e56a6f
+GraphedExpression="((glv_ins).ERaxis).Q_btoi[2]", Color=#35792b
+GraphedExpression="((glv_ins).ERaxis).Q_btoi[3]", Color=#769dda
+GraphedExpression="angle333[0]", Color=#b14f0d
+GraphedExpression="angle333[1]", Color=#b3c38e
+GraphedExpression="angle333[2]", Color=#ab7b05
+OpenDocument="main.c", FilePath="D:/download-suibian/RobotMaster/cpp/Bridge-imu/Core/Src/main.c", Line=65
+OpenDocument="stm32f4xx_hal.c", FilePath="D:/download-suibian/RobotMaster/cpp/Bridge-imu/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c", Line=389
+OpenDocument="startup_stm32f407xx.s", FilePath="D:/download-suibian/RobotMaster/cpp/Bridge-imu/startup_stm32f407xx.s", Line=50
+OpenDocument="qeskf.cpp", FilePath="D:/download-suibian/RobotMaster/cpp/Bridge-imu/Application/Filter/QAHRS/qeskf.cpp", Line=137
+OpenDocument="portmacro.h", FilePath="d:/download-suibian/robotmaster/cpp/bridge-imu/middlewares/third_party/freertos/source/portable/gcc/arm_cm4f/portmacro.h", Line=122
+OpenDocument="ins.cpp", FilePath="D:/download-suibian/RobotMaster/cpp/Bridge-imu/Application/Sensor/INS/ins.cpp", Line=44
+OpenDocument="freertos.c", FilePath="D:/download-suibian/RobotMaster/cpp/Bridge-imu/Core/Src/freertos.c", Line=212
+OpenDocument="spi.h", FilePath="D:/download-suibian/RobotMaster/cpp/Bridge-imu/Core/Inc/spi.h", Line=8
+OpenDocument="kalman.cpp", FilePath="D:/download-suibian/RobotMaster/cpp/Bridge-imu/Application/Filter/Kalman/kalman.cpp", Line=98
+OpenDocument="stm32f4xx_it.c", FilePath="D:/download-suibian/RobotMaster/cpp/Bridge-imu/Core/Src/stm32f4xx_it.c", Line=96
 OpenDocument="CwiseNullaryOp.h", FilePath="D:/download-suibian/RobotMaster/cpp/Bridge_new/Middlewares/Third_Party/Eigen/src/Core/CwiseNullaryOp.h", Line=329
-OpenDocument="stm32f4xx_hal_spi.c", FilePath="D:/download-suibian/RobotMaster/cpp/Bridge_new/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c", Line=1207
+OpenDocument="arm_mat_mult_f32.c", FilePath="D:/download-suibian/RobotMaster/cpp/Bridge-imu/Middlewares/Third_Party/CMSIS-DSP/Source/MatrixFunctions/arm_mat_mult_f32.c", Line=949
 OpenToolbar="Debug", Floating=0, x=0, y=0
-OpenWindow="Source Files", DockArea=LEFT, x=0, y=0, w=780, h=665, TabPos=1, TopOfStack=0, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
-OpenWindow="Watched Data 1", DockArea=LEFT, x=0, y=0, w=780, h=665, TabPos=0, TopOfStack=1, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
-OpenWindow="Data Sampling", DockArea=BOTTOM, x=0, y=0, w=780, h=275, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, VisibleTab=0, UniformSampleSpacing=0
-OpenWindow="Timeline", DockArea=RIGHT, x=0, y=0, w=573, h=679, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=1, DataPaneShown=1, PowerPaneShown=0, CodePaneShown=0, PinCursor="Cursor Movable", TimePerDiv="5 s", TimeStampFormat="Time", DataGraphDrawAsPoints=0, DataGraphLegendShown=1, DataGraphUniformSampleSpacing=0, DataGraphLegendPosition="223;0", DataGraphShowNamesAtCursor=0, PowerGraphDrawAsPoints=0, PowerGraphLegendShown=0, PowerGraphAvgFilterTime=Off, PowerGraphAvgFilterLen=Off, PowerGraphUniformSampleSpacing=0, PowerGraphLegendPosition="825;0", CodeGraphLegendShown=0, CodeGraphLegendPosition="831;0"
-OpenWindow="Console", DockArea=BOTTOM, x=1, y=0, w=1139, h=275, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Source Files", DockArea=LEFT, x=0, y=0, w=270, h=665, TabPos=1, TopOfStack=0, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Disassembly", DockArea=RIGHT, x=0, y=0, w=1504, h=112, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Watched Data 1", DockArea=LEFT, x=0, y=0, w=270, h=665, TabPos=0, TopOfStack=1, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Data Sampling", DockArea=BOTTOM, x=0, y=0, w=1204, h=275, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, VisibleTab=0, UniformSampleSpacing=0
+OpenWindow="Timeline", DockArea=RIGHT, x=0, y=1, w=1504, h=566, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=1, DataPaneShown=1, PowerPaneShown=0, CodePaneShown=0, PinCursor="Cursor Movable", TimePerDiv="5 s", TimeStampFormat="Time", DataGraphDrawAsPoints=0, DataGraphLegendShown=1, DataGraphUniformSampleSpacing=0, DataGraphLegendPosition="818;0", DataGraphShowNamesAtCursor=0, PowerGraphDrawAsPoints=0, PowerGraphLegendShown=0, PowerGraphAvgFilterTime=Off, PowerGraphAvgFilterLen=Off, PowerGraphUniformSampleSpacing=0, PowerGraphLegendPosition="289;0", CodeGraphLegendShown=0, CodeGraphLegendPosition="295;0"
+OpenWindow="Console", DockArea=BOTTOM, x=1, y=0, w=715, h=275, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
 SmartViewPlugin="", Page="", Toolbar="Hidden", Window="SmartView 1"
 TableHeader="Source Files", SortCol="File", SortOrder="ASCENDING", VisibleCols=["File";"Status";"Size";"#Insts";"Path"], ColWidths=[475;100;100;100;1250]
-TableHeader="Data Sampling Table", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time";" ((ins).ERaxis).yaw_pitch_roll[2]";" ((ins).ERaxis).yaw_pitch_roll[1]";" ((ins).ERaxis).yaw_pitch_roll[0]";" ((ins).ERaxis).phi[0]";" ((ins).ERaxis).phi[1]";" ((ins).ERaxis).phi[2]"], ColWidths=[100;100;100;100;100;100;100;100]
-TableHeader="Data Sampling Setup", SortCol="Expression", SortOrder="DESCENDING", VisibleCols=["Expression";"Type";"Value";"Min";"Max";"Average";"# Changes";"Min. Change";"Max. Change"], ColWidths=[244;100;119;119;112;119;100;119;112]
-TableHeader="Power Sampling", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time";"Ch 0"], ColWidths=[100;100;100]
-TableHeader="RegisterSelectionDialog", SortCol="None", SortOrder="ASCENDING", VisibleCols=[], ColWidths=[]
 TableHeader="Watched Data 1", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Value";"Location";"Refresh";"Access"], ColWidths=[282;163;100;235;100]
+TableHeader="Data Sampling Table", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time";" ((glv_ins).ERaxis).Q_btoi[1]";" ((glv_ins).ERaxis).Q_btoi[2]";" ((glv_ins).ERaxis).Q_btoi[3]";" angle333[0]";" angle333[1]";" angle333[2]"], ColWidths=[100;100;100;100;100;100;100;487]
+TableHeader="Data Sampling Setup", SortCol="Expression", SortOrder="DESCENDING", VisibleCols=["Expression";"Type";"Value";"Min";"Max";"Average";"# Changes";"Min. Change";"Max. Change"], ColWidths=[230;100;112;105;100;112;100;105;240]
+TableHeader="Power Sampling", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time";"Ch 0"], ColWidths=[100;100;100]
+TableHeader="Task List", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Name";"Run Count";"Priority";"Status";"Timeout";"Stack Info";"ID";"Mutex Count";"Notified Value";"Notify State"], ColWidths=[110;110;110;110;110;110;110;110;110;110]
+TableHeader="RegisterSelectionDialog", SortCol="None", SortOrder="ASCENDING", VisibleCols=[], ColWidths=[]
 TableHeader="TargetExceptionDialog", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Address";"Description"], ColWidths=[200;100;100;359]
 WatchedExpression="ins", RefreshRate=5, Window=Watched Data 1
 WatchedExpression="BMI088", RefreshRate=5, Window=Watched Data 1
@@ -43,3 +46,23 @@ WatchedExpression="phi3anti", RefreshRate=5, Window=Watched Data 1
 WatchedExpression="temp1", RefreshRate=5, Window=Watched Data 1
 WatchedExpression="temp2", RefreshRate=5, Window=Watched Data 1
 WatchedExpression="abs_phi", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="qeskf", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="(qeskf).H[12]", Window=Watched Data 1
+WatchedExpression="glv_qeskf", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="error", Window=Watched Data 1
+WatchedExpression="qeskf.cpp::QESKF_Updata::error", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="kf_state", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="P", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="Kk", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="Pxz", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="Pzz_inv", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="glv_ins", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="H", Window=Watched Data 1
+WatchedExpression="R", Window=Watched Data 1
+WatchedExpression="Kalman_Updata(struct Kalman_t*)", Window=Watched Data 1
+WatchedExpression="tempKH", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="glv_ins", Window=Watched Data 1
+WatchedExpression="acc", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="Cbton", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="abs", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="angle333", RefreshRate=5, Window=Watched Data 1

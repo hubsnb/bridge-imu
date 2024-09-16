@@ -54,11 +54,14 @@ add_executable(${CMAKE_PROJECT_NAME}
         ${GLOB_SOURCES}
         ${GLOB_RECURSE_SOURCES}
         config.h
+        Application/Filter/QAHRS/qeskf.cpp
+        Application/Filter/QAHRS/qeskf.hpp
+        Application/Filter/QAHRS/qeskf.h
 )
 
 # Add STM32CubeMX generated sources
 add_subdirectory(cmake/stm32cubemx)
-add_subdirectory(Middlewares/Third_Party/CMSIS-DSP/1.10.1/Source bin_dsp)
+add_subdirectory(Middlewares/Third_Party/CMSIS-DSP/Source bin_dsp)
 # Link directories setup
 target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined library search paths

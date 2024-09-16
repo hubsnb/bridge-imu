@@ -77,24 +77,20 @@ struct INS {
         float yaw_pitch_roll[3];
 };
 
-struct User_IMU_t {
-        float Gyro[3];
-        float Accel[3];
-        float Gnorm;
 
-};
-void QuaterniontoEular(const float *Q_btoi,float eular_angle[3]);
-void QuaterniontoConsine(float Q[4], float C[9]);
-void multiplyQuaternions(const float p[4], const float q[4], float result[4]);
-void EquivalentRotationVectortoQuaternions(const float phi3[3],float * Q_btoi);
+void quatroeular(const float *Q_btoi,float eular_angle[3]);
+void quatoc(float Q[4], float C[9]);
+void qmul(const float p[4], const float q[4], float result[4]);
+void rtoqua(const float phi3[3],float * Q_btoi);
 void Multi_SubSampling(struct EqualRotationAxis * eraxis ,const User_IMU_t * Imu,const float dt ,Cal_Method CM, enum Sample sample_state);
 void User_Read_Imu();
 void Velocity_Update(struct Velocity * v, struct EqualRotationAxis * eraxis, const User_IMU_t * Imu,const float dt);
 void crossProduct(const float u[3], const float v[3], float result[3]);
 void arrayToAntiSymmetricMatrix(const float *array, float *matrix);
-void M_equal_Rotation_vector(const float phi3[3], arm_matrix_instance_f32 *C_btoi);
-void AttitudeMatrixtoEular(const float* C_btoi,float angle3[3]);
-void PhitoEular(float phi[3], float Q_btoi[4], float angle[3], struct CosineMatrix *C, enum Cal_Method Cm);
+void rtoc(const float phi3[3], arm_matrix_instance_f32 *C_btoi);
+void atttoeular(const float* C_btoi,float angle3[3]);
+void rtoeular(float phi[3], float Q_btoi[4], float angle[3], struct CosineMatrix *C, enum Cal_Method Cm);
+void Q_normal(float Q_btoi[4]);
 
 
 

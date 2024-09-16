@@ -7,6 +7,7 @@
 
 #ifdef __cplusplus
 extern "C" {
+
 #include  "Middlewares/Third_Party/CMSIS-DSP/Include/arm_math.h"
 #endif /* __cplusplus */
 
@@ -26,9 +27,13 @@ extern "C" {
                 float * P_zz;
                 float * P_zz_inv;
                 float * Z;//量测测量值
-                arm_matrix_instance_f32 sQ,sR,sH,sH_t,sP,sFk,sFk_t,sKk,sI,sX_hat,sXk,sP_xz,sP_zz,sP_zz_inv,sZ;
+                float * tempKH;
+                float * tempHP;
+                float * tempHX;
+                float * hz;//H*X的实际版本
+                arm_matrix_instance_f32 sQ,sR,sH,sH_t,sP,sFk,sFk_t,sKk,sI,sX_hat,sXk,sP_xz,sP_zz,sP_zz_inv,sZ,stempKH,stempHP,stempHX,shz;
         };
-        void Kalman_Updata(Kalman_t *kf, arm_matrix_instance_f32 *sx_minus, arm_matrix_instance_f32 * sP_minus);
+
 #ifdef __cplusplus
 }
 

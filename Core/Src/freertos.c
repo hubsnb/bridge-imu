@@ -29,6 +29,7 @@
 #include "Application/test/test.h"
 #include "Application/SystemClock/SystemClock.h"
 #include "Application/Sensor/INS/ins.h"
+#include "Application/Filter/QAHRS/qeskf.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -178,6 +179,7 @@ void StartDefaultTask(void const * argument)
   /* Infinite loop */
   for(;;)
   {
+
     osDelay(1);
   }
   /* USER CODE END StartDefaultTask */
@@ -193,7 +195,7 @@ void StartDefaultTask(void const * argument)
 void StartController01(void const * argument)
 {
   /* USER CODE BEGIN StartController01 */
-
+  QESKF_Init();
   Ins_Init(0);
   /* Infinite loop */
   for(;;)
